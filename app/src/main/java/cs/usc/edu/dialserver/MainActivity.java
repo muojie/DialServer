@@ -1,6 +1,6 @@
 package cs.usc.edu.dialserver;
 
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -12,7 +12,7 @@ import org.restlet.ext.gson.GsonConverter;
 import org.restlet.ext.nio.HttpServerHelper;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
     private Component mComponent = null;
